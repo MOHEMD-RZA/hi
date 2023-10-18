@@ -1,14 +1,7 @@
-# hi# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+Emphasis, aka italics, with *asterisks* or _underscores_.
 
-Alternatively, for H1 and H2, an underline-ish style:
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-Alt-H1
-======
+Combined emphasis with **asterisks and _underscores_**.
 
-Alt-H2
-------
+Strikethrough uses two tildes. ~~Scratch this.~~
