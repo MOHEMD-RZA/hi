@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+  
+        هنا علمود اذا عدنه ادخال بره الفورم ونربطه بالفورم عن طريقه الايدي
+
+        formnovalidate ====> هنا يفعل نو فلاديت 
+        formtarget 
+        pattern ===> مهم الباترن بحيث تنطي استايل معين للادخال
+        readonly فقط للقرائه
+
+     -->
+    <form action="" id="minform">
+
+        <input type="text" pattern="[ِA-Z]{6}" required>
+        <input type="text" readonly>
+        <input type="submit">
+        <input type="submit" formnovalidate >
+        <input type="submit" formtarget="_blank" >
+
+    </form>
+
+    <input type="text" name="nickname" form="minform">
+    
+</body>
+</html>
